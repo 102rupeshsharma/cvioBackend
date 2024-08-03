@@ -3,10 +3,11 @@
       "module": "CommonJS",
       "moduleResolution": "node",
       "strict": true,
-      "outDir": "./built",
+      "outDir": "./dist",
       "experimentalDecorators": true,
       "emitDecoratorMetadata": true,
-      "esModuleInterop": true
+      "esModuleInterop": true,
+      "skipLibCheck": true
     },
     "include": ["src/**/*"],
 }
